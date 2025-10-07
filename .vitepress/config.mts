@@ -15,6 +15,7 @@ export default defineConfig({
         sidebar: {
             '/video/': {
                 items: [
+                    { text: 'vue 中如何优雅的处理按钮 loading', link: '/video/button-encapsulation-loading' },
                     { text: 'vue 组件的二次封装 - 究极版', link: '/video/component-encapsulation-ultimate-end' },
                     { text: 'vue中的无渲染组件', link: '/video/vue-no-render-component' },
                     { text: '第三方插件封装 vue 组合式函数', link: '/video/third-plugins-encapsulate-vue-composite-function' },
