@@ -9,16 +9,20 @@ export default defineConfig({
         logo: '/logo.jpeg',
         nav: [
             { text: '首页', link: '/' },
-            { text: '视频集合', link: '/video/component-encapsulation-ultimate-end' },
+            { text: '视频集合', link: '/video/vue-composite-function-encapsulation' },
             { text: '代码集', link: '/code/dynamic-form' },
         ],
         sidebar: {
             '/video/': {
                 items: [
+                    { text: 'vue 组合式函数封装', link: '/video/vue-composite-function-encapsulation' },
                     { text: 'vue 中如何优雅的处理按钮 loading', link: '/video/button-encapsulation-loading' },
                     { text: 'vue 组件的二次封装 - 究极版', link: '/video/component-encapsulation-ultimate-end' },
                     { text: 'vue中的无渲染组件', link: '/video/vue-no-render-component' },
-                    { text: '第三方插件封装 vue 组合式函数', link: '/video/third-plugins-encapsulate-vue-composite-function' },
+                    {
+                        text: '第三方插件封装 vue 组合式函数',
+                        link: '/video/third-plugins-encapsulate-vue-composite-function',
+                    },
                     { text: 'vue异步组件实现原理', link: '/video/vue-async-component' },
                     { text: 'vue 实现全局状态管理', link: '/video/vue-global-status' },
                     { text: 'vue 组件内的模板复用', link: '/video/use-template-reuse' },
