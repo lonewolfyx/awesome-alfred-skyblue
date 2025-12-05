@@ -10,7 +10,7 @@ export default defineConfig({
         nav: [
             { text: '首页', link: '/' },
             { text: '视频集合', link: '/video/vue-composite-function-encapsulation' },
-            { text: '代码集', link: '/code/dynamic-form' },
+            { text: '代码集', link: '/code/create-context' },
         ],
         sidebar: {
             '/video/': {
@@ -32,6 +32,7 @@ export default defineConfig({
             },
             '/code/': {
                 items: [
+                    { text: 'createContext', link: '/code/create-context' },
                     { text: '远程组件加载', link: '/code/define-async-component' },
                     { text: '动态表单', link: '/code/dynamic-form' },
                     { text: 'useStorageRef', link: '/code/use-storage-ref' },
