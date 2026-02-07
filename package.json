@@ -26,7 +26,7 @@
         "vitepress": "^1.6.3"
     },
     "devDependencies": {
-        "@antfu/eslint-config": "^4.15.0",
+        "@antfu/eslint-config": "^7.0.0",
         "@types/node": "^24.0.3",
         "@vue/tsconfig": "^0.7.0",
         "autoprefixer": "^10.4.21",
