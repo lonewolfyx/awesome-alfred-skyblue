@@ -30,7 +30,7 @@
         "@types/node": "^24.0.3",
         "@vue/tsconfig": "^0.7.0",
         "autoprefixer": "^10.4.21",
-        "eslint": "^9.29.0",
+        "eslint": "^10.0.0",
         "lint-staged": "^16.1.5",
         "picocolors": "^1.1.1",
         "postcss": "^8.5.6",
