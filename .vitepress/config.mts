@@ -10,7 +10,7 @@ export default defineConfig({
         nav: [
             { text: '首页', link: '/' },
             { text: '视频集合', link: '/video/vue-composite-function-encapsulation' },
-            { text: '代码集', link: '/code/create-context' },
+            { text: '代码集', link: '/code/ultimate-imperative-dialog' },
         ],
         sidebar: {
             '/video/': {
