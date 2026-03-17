@@ -32,6 +32,7 @@ export default defineConfig({
             },
             '/code/': {
                 items: [
+                    { text: '终极版命令式弹窗', link: '/code/ultimate-imperative-dialog' },
                     { text: 'createContext', link: '/code/create-context' },
                     { text: '远程组件加载', link: '/code/define-async-component' },
                     { text: '动态表单', link: '/code/dynamic-form' },
